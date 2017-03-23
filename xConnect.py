@@ -14,12 +14,12 @@ import requests.packages.urllib3
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from requests.auth import HTTPBasicAuth  # for Basic Auth
 
-# import all account info from SparkConnect_init.py file. Update the file with lab account info
+# import all account info from xConnect_init.py file. Update the file with lab account info
 
-from SparkConnect_init import SPARK_URL, SPARK_AUTH, ROOM_NAME, IT_ENG_EMAIL
-from SparkConnect_init import EM_URL, EM_USER, EM_PASSW
-from SparkConnect_init import PI_URL, PI_USER, PI_PASSW, WLAN_DEPLOY, WLAN_DISABLE, WIFI_SSID
-from SparkConnect_init import CMX_URL, CMX_USER, CMX_PASSW
+from xConnect_init import SPARK_URL, SPARK_AUTH, ROOM_NAME, IT_ENG_EMAIL
+from xConnect_init import EM_URL, EM_USER, EM_PASSW
+from xConnect_init import PI_URL, PI_USER, PI_PASSW, WLAN_DEPLOY, WLAN_DISABLE, WIFI_SSID
+from xConnect_init import CMX_URL, CMX_USER, CMX_PASSW
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)  # Disable insecure https warnings
 
